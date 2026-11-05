@@ -1,0 +1,158 @@
+{
+  "_README": "Edit these values for each client, then run: python3 _build/build.py && python3 _build/qa.py. Values marked SAMPLE must be replaced before launch. Keep demo_mode true until real client details are in; it adds noindex to every page and the yellow demo banner. accent: brand colour #rrggbb used for buttons and highlights (the build stops if it is too dark to read). accent_alt: the second colour used for live circuits and the gradient (#rrggbb). logo: path to the client's logo, e.g. assets/img/client/logo.png (transparent PNG best); empty = built-in mark + name. services: remove any slug the client does not offer, then fix any sentences listed in _build/removed-service-mentions.txt. photos: the client's own job photos only (see _build/photos.py). licence_number: the client's ESA Licensed Electrical Contractor (LEC) number, shown in the footer and on the about page; leave empty until the client confirms it (nothing is shown). intro: false turns the opening animation off; intro_scope 'all' plays it on whichever page a visitor lands on first, 'home' limits it to the home page. house_scene: false turns off the scroll scene at the top of the home page (a house wired circuit by circuit as you scroll). emergency: true shows emergency call wording in the header area and hero; set it to false if the client does not take after-hours calls. estimator: see the _README inside it.",
+  "demo_mode": true,
+  "business_name": "Voltline Electric Co.",
+  "legal_name": "Voltline Electric Co.",
+  "short_tagline": "Electric Co.",
+  "region_label": "Windsor-Essex",
+  "province": "ON",
+  "country": "CA",
+  "accent": "#ffc929",
+  "accent_alt": "#5cc8ff",
+  "logo": "",
+  "licence_number": "",
+  "intro": true,
+  "intro_scope": "all",
+  "house_scene": true,
+  "emergency": true,
+  "emergency_note": "Sparks, burning smell or no power? Call now.",
+  "inspection_authority": "the Electrical Safety Authority (ESA)",
+  "inspection_short": "ESA",
+  "inspection_url": "https://esasafe.com/",
+  "services": [
+    "panel-upgrades",
+    "ev-charger-installation",
+    "generator-installation",
+    "surge-protection",
+    "home-rewiring",
+    "knob-and-tube-replacement",
+    "pot-lights",
+    "outlets-switches",
+    "renovation-wiring",
+    "hot-tub-wiring",
+    "electrical-repair",
+    "emergency-electrician",
+    "electrical-inspections",
+    "commercial-electrical"
+  ],
+  "photos": [],
+  "domain": "https://rankboss-electrician.pages.dev",
+  "base_path": "/",
+  "phone_display": "(519) 555-0186",
+  "phone_e164": "+15195550186",
+  "email": "info@example.com",
+  "address": null,
+  "_address_example": {
+    "street": "123 Example St",
+    "city": "Windsor",
+    "region": "ON",
+    "postal": "N9A 0A0"
+  },
+  "hours": [
+    {
+      "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "label": "Monday to Friday",
+      "open": "07:30",
+      "close": "17:30"
+    },
+    {
+      "days": ["Saturday"],
+      "label": "Saturday",
+      "open": "08:00",
+      "close": "14:00"
+    }
+  ],
+  "hours_note": "Emergency calls answered 24/7",
+  "cta_label": "Get a Free Quote",
+  "form_endpoint": "https://formsubmit.co/info@example.com",
+  "form_provider_name": "FormSubmit (formsubmit.co)",
+  "google_business_profile_url": "",
+  "social_profiles": [],
+  "google_site_verification": "",
+  "privacy_contact": "info@example.com",
+  "legal_jurisdiction": "Ontario",
+  "policy_effective_date": "November 4, 2026",
+  "estimator": {
+    "_README": "Instant electrical estimate (/electrical-estimate/). Set the client's real prices (CAD) before launch. Everything runs in the visitor's browser; nothing is sent until they submit the form. jobs: one entry per job type the tool prices; 'service' hides the job when the client doesn't offer that service; remove a job to drop it. base = starting price for the job. inputs: 'range' (slider; per_unit = price per unit above free_units), 'count' (stepper; per_unit = price each), 'choice' (radio; add = amount added, mult = multiplier applied to the job's unit-priced work, i.e. its range and count inputs; note = text shown when chosen), 'check' (checkbox; add = amount added; 'service' hides it when not offered). Job total = (base + choice adds + check adds + unit-priced work x choice mults); then +/- range_pct, rounded to round_to, never below minimum_job. permit_included: true says on the result that the ESA permit and inspection are included; set false if the client prices them separately.",
+    "enabled": true,
+    "currency": "CAD",
+    "range_pct": 15,
+    "round_to": 25,
+    "minimum_job": 250,
+    "permit_included": true,
+    "default_job": "ev",
+    "jobs": [
+      {"id": "ev", "label": "EV charger", "hint": "Level 2 home charging", "icon": "ev", "service": "ev-charger-installation", "base": 1150,
+       "includes": "a dedicated 240 V circuit and breaker, wire run, receptacle or hard-wired connection, ESA permit and inspection",
+       "inputs": [
+         {"id": "run", "type": "range", "label": "Distance from your panel to the parking spot", "unit": "ft", "min": 5, "max": 150, "step": 5, "default": 30, "per_unit": 14, "free_units": 15, "hint": "Measure along the walls, not in a straight line. The first 15 ft are included."},
+         {"id": "amps", "type": "choice", "label": "Charging speed", "options": [
+           {"id": "40", "label": "40 A circuit", "hint": "Adds about 40–50 km of range an hour", "add": 0},
+           {"id": "60", "label": "60 A circuit", "hint": "Faster; needs a charger rated for it", "add": 275}]},
+         {"id": "panel", "type": "choice", "label": "Your main panel", "options": [
+           {"id": "200", "label": "200 A", "add": 0},
+           {"id": "100", "label": "100 A or smaller", "add": 750, "note": "Smaller panels need a load calculation first. An EV energy management system often avoids a panel upgrade, and that's what's priced here."},
+           {"id": "unknown", "label": "Not sure", "add": 0, "note": "We'll check your panel size and load on the site visit."}]},
+         {"id": "garage", "type": "choice", "label": "Where you park", "options": [
+           {"id": "attached", "label": "Attached garage", "add": 0},
+           {"id": "driveway", "label": "Driveway (outdoor charger)", "add": 150},
+           {"id": "detached", "label": "Detached garage", "add": 650, "note": "A detached garage usually needs a buried feed. The trench is priced on site."}]},
+         {"id": "supply", "type": "check", "label": "Supply the charger too", "add": 950}
+       ]},
+      {"id": "panel", "label": "Panel upgrade", "hint": "New panel or bigger service", "icon": "panel", "service": "panel-upgrades", "base": 0,
+       "includes": "the new panel and breakers, labelling, grounding and bonding, coordination with the utility, ESA permit and inspection",
+       "inputs": [
+         {"id": "kind", "type": "choice", "label": "What you need", "options": [
+           {"id": "replace", "label": "Replace the panel", "hint": "Same service size, new panel", "add": 2400},
+           {"id": "100-200", "label": "100 A → 200 A", "hint": "Service upgrade with a new meter base", "add": 4300},
+           {"id": "200-400", "label": "200 A → 400 A", "hint": "Large homes, shops, multiple EVs", "add": 8900}]},
+         {"id": "service", "type": "choice", "label": "How power reaches your house", "options": [
+           {"id": "overhead", "label": "Overhead wires", "add": 0},
+           {"id": "underground", "label": "Underground", "add": 900, "note": "Underground services take more work at the meter. Any utility charges are confirmed with your utility."}]},
+         {"id": "circuits", "type": "count", "label": "New circuits while we're there", "hint": "Hot tub, EV, garage, kitchen", "per_unit": 240, "max": 12},
+         {"id": "surge", "type": "check", "label": "Whole-home surge protector", "add": 425, "service": "surge-protection"},
+         {"id": "move", "type": "check", "label": "Move the panel to a new spot", "add": 1250}
+       ]},
+      {"id": "potlights", "label": "Pot lights", "hint": "Slim LED, with dimmers", "icon": "potlight", "service": "pot-lights", "base": 150,
+       "includes": "slim LED pot lights, wiring and switching, patching of the access holes we make, ESA permit and inspection",
+       "inputs": [
+         {"id": "lights", "type": "range", "label": "How many pot lights", "unit": "lights", "min": 4, "max": 40, "step": 1, "default": 8, "per_unit": 125, "free_units": 0, "hint": "A typical living room takes 6 to 10."},
+         {"id": "access", "type": "choice", "label": "What's above the ceiling", "options": [
+           {"id": "attic", "label": "Attic", "hint": "Top floor, easiest access", "mult": 1.0},
+           {"id": "floor", "label": "Another floor", "hint": "Finished ceiling, fished wires", "mult": 1.25},
+           {"id": "open", "label": "Open joists", "hint": "Unfinished basement", "mult": 0.8}]},
+         {"id": "dimmers", "type": "count", "label": "Dimmer switches", "hint": "One per group of lights", "per_unit": 95, "max": 8, "default": 1},
+         {"id": "colour", "type": "check", "label": "Colour-selectable lights (warm to cool)", "add": 120}
+       ]},
+      {"id": "generator", "label": "Generator hookup", "hint": "Power through outages", "icon": "generator", "service": "generator-installation", "base": 0,
+       "includes": "the transfer equipment, inlet or connection, wire run, ESA permit and inspection",
+       "inputs": [
+         {"id": "setup", "type": "choice", "label": "Your generator", "options": [
+           {"id": "portable", "label": "Portable", "hint": "Inlet box + panel interlock", "add": 1150},
+           {"id": "switch", "label": "Portable + transfer switch", "hint": "Pick the circuits you want", "add": 1650},
+           {"id": "standby", "label": "Standby (natural gas)", "hint": "Hookup of a generator you supply", "add": 2900, "note": "The gas line is run by a licensed gas fitter and priced separately."}]},
+         {"id": "run", "type": "range", "label": "Distance from your panel to the generator spot", "unit": "ft", "min": 5, "max": 100, "step": 5, "default": 20, "per_unit": 12, "free_units": 10},
+         {"id": "sump", "type": "check", "label": "Dedicated circuit for the sump pump", "add": 275}
+       ]},
+      {"id": "hottub", "label": "Hot tub wiring", "hint": "GFCI disconnect + circuit", "icon": "hottub", "service": "hot-tub-wiring", "base": 1050,
+       "includes": "the dedicated circuit and breaker, a GFCI-protected disconnect at the tub, bonding, ESA permit and inspection",
+       "inputs": [
+         {"id": "run", "type": "range", "label": "Distance from your panel to the tub", "unit": "ft", "min": 10, "max": 150, "step": 5, "default": 40, "per_unit": 16, "free_units": 20},
+         {"id": "route", "type": "choice", "label": "How the wire gets there", "options": [
+           {"id": "wall", "label": "Along the house", "add": 0},
+           {"id": "buried", "label": "Buried across the yard", "add": 650, "note": "Buried runs need conduit at the right depth. We'll confirm the route and locates on site."}]},
+         {"id": "amps", "type": "choice", "label": "Tub size", "options": [
+           {"id": "40", "label": "Up to 40 A", "hint": "Most 2 to 4 person tubs", "add": 0},
+           {"id": "60", "label": "50 or 60 A", "hint": "Larger tubs and swim spas", "add": 225}]}
+       ]},
+      {"id": "outlets", "label": "Outlets & circuits", "hint": "New outlets, GFCI, USB", "icon": "outlet", "service": "outlets-switches", "base": 125,
+       "includes": "devices, boxes and cover plates, wiring from the nearest suitable circuit or the panel, ESA permit and inspection",
+       "inputs": [
+         {"id": "new", "type": "count", "label": "New outlets", "hint": "Where there isn't one now", "per_unit": 175, "max": 20, "default": 2},
+         {"id": "swap", "type": "count", "label": "Outlets upgraded", "hint": "To GFCI, USB or tamper-resistant", "per_unit": 85, "max": 30},
+         {"id": "dedicated", "type": "count", "label": "New dedicated circuits", "hint": "Freezer, microwave, workshop", "per_unit": 295, "max": 8},
+         {"id": "outdoor", "type": "check", "label": "Outdoor weatherproof outlet", "add": 260}
+       ]}
+    ]
+  }
+}

@@ -1,0 +1,428 @@
+[
+ {
+  "path": "index.html",
+  "url": "https://rankboss-electrician.pages.dev/",
+  "title": "Voltline Electric Co. | Electrician, Windsor-Essex",
+  "indexable": true
+ },
+ {
+  "path": "electrical-estimate/index.html",
+  "url": "https://rankboss-electrician.pages.dev/electrical-estimate/",
+  "title": "Instant Electrical Estimate: EV Chargers, Panels & More",
+  "indexable": true
+ },
+ {
+  "path": "services/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/",
+  "title": "Electrical Services | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/panel-upgrades/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/panel-upgrades/",
+  "title": "Electrical Panel Upgrades | 100 A to 200 A Service",
+  "indexable": true
+ },
+ {
+  "path": "services/panel-upgrades/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/panel-upgrades/windsor/",
+  "title": "Panel Upgrades in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/panel-upgrades/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/panel-upgrades/lasalle/",
+  "title": "Panel Upgrades in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/panel-upgrades/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/panel-upgrades/tecumseh/",
+  "title": "Panel Upgrades in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/ev-charger-installation/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/ev-charger-installation/",
+  "title": "EV Charger Installation | Level 2 Home Charging",
+  "indexable": true
+ },
+ {
+  "path": "services/ev-charger-installation/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/ev-charger-installation/windsor/",
+  "title": "EV Charger Installation in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/ev-charger-installation/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/ev-charger-installation/lasalle/",
+  "title": "EV Charger Installation in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/ev-charger-installation/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/ev-charger-installation/tecumseh/",
+  "title": "EV Charger Installation in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/generator-installation/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/generator-installation/",
+  "title": "Generator Installation | Inlets, Interlocks & Transfer Switches",
+  "indexable": true
+ },
+ {
+  "path": "services/generator-installation/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/generator-installation/windsor/",
+  "title": "Generator Installation in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/generator-installation/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/generator-installation/lasalle/",
+  "title": "Generator Installation in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/generator-installation/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/generator-installation/tecumseh/",
+  "title": "Generator Installation in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/surge-protection/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/surge-protection/",
+  "title": "Whole-Home Surge Protection | Panel Surge Protectors",
+  "indexable": true
+ },
+ {
+  "path": "services/surge-protection/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/surge-protection/windsor/",
+  "title": "Surge Protection in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/surge-protection/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/surge-protection/lasalle/",
+  "title": "Surge Protection in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/surge-protection/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/surge-protection/tecumseh/",
+  "title": "Surge Protection in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/home-rewiring/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/home-rewiring/",
+  "title": "Home Rewiring | Older Homes & Aluminum Wiring",
+  "indexable": true
+ },
+ {
+  "path": "services/home-rewiring/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/home-rewiring/windsor/",
+  "title": "Home Rewiring in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/home-rewiring/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/home-rewiring/lasalle/",
+  "title": "Home Rewiring in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/home-rewiring/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/home-rewiring/tecumseh/",
+  "title": "Home Rewiring in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/knob-and-tube-replacement/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/knob-and-tube-replacement/",
+  "title": "Knob and Tube Wiring Replacement | Older Homes",
+  "indexable": true
+ },
+ {
+  "path": "services/knob-and-tube-replacement/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/knob-and-tube-replacement/windsor/",
+  "title": "Knob & Tube Replacement in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/knob-and-tube-replacement/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/knob-and-tube-replacement/lasalle/",
+  "title": "Knob & Tube Replacement in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/knob-and-tube-replacement/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/knob-and-tube-replacement/tecumseh/",
+  "title": "Knob & Tube Replacement in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/pot-lights/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/pot-lights/",
+  "title": "Pot Light Installation | LED Pot Lights & Dimmers",
+  "indexable": true
+ },
+ {
+  "path": "services/pot-lights/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/pot-lights/windsor/",
+  "title": "Pot Lights & Lighting in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/pot-lights/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/pot-lights/lasalle/",
+  "title": "Pot Lights & Lighting in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/pot-lights/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/pot-lights/tecumseh/",
+  "title": "Pot Lights & Lighting in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/outlets-switches/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/outlets-switches/",
+  "title": "Outlets, Switches & New Circuits | GFCI & USB",
+  "indexable": true
+ },
+ {
+  "path": "services/outlets-switches/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/outlets-switches/windsor/",
+  "title": "Outlets & Switches in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/outlets-switches/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/outlets-switches/lasalle/",
+  "title": "Outlets & Switches in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/outlets-switches/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/outlets-switches/tecumseh/",
+  "title": "Outlets & Switches in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/renovation-wiring/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/renovation-wiring/",
+  "title": "Renovation & Basement Electrical | Kitchens, Baths, Additions",
+  "indexable": true
+ },
+ {
+  "path": "services/renovation-wiring/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/renovation-wiring/windsor/",
+  "title": "Renovation & Basement Wiring in Windsor, ON",
+  "indexable": true
+ },
+ {
+  "path": "services/renovation-wiring/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/renovation-wiring/lasalle/",
+  "title": "Renovation & Basement Wiring in LaSalle, ON",
+  "indexable": true
+ },
+ {
+  "path": "services/renovation-wiring/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/renovation-wiring/tecumseh/",
+  "title": "Renovation & Basement Wiring in Tecumseh, ON",
+  "indexable": true
+ },
+ {
+  "path": "services/hot-tub-wiring/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/hot-tub-wiring/",
+  "title": "Hot Tub & Pool Wiring | GFCI Disconnects & Bonding",
+  "indexable": true
+ },
+ {
+  "path": "services/hot-tub-wiring/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/hot-tub-wiring/windsor/",
+  "title": "Hot Tub & Pool Wiring in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/hot-tub-wiring/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/hot-tub-wiring/lasalle/",
+  "title": "Hot Tub & Pool Wiring in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/hot-tub-wiring/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/hot-tub-wiring/tecumseh/",
+  "title": "Hot Tub & Pool Wiring in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/electrical-repair/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/electrical-repair/",
+  "title": "Electrical Repair & Troubleshooting | Residential",
+  "indexable": true
+ },
+ {
+  "path": "services/electrical-repair/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/electrical-repair/windsor/",
+  "title": "Electrical Repair in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/electrical-repair/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/electrical-repair/lasalle/",
+  "title": "Electrical Repair in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/electrical-repair/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/electrical-repair/tecumseh/",
+  "title": "Electrical Repair in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/emergency-electrician/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/emergency-electrician/",
+  "title": "Emergency Electrician | Sparks, Burning Smells, No Power",
+  "indexable": true
+ },
+ {
+  "path": "services/emergency-electrician/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/emergency-electrician/windsor/",
+  "title": "Emergency Electrician in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/emergency-electrician/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/emergency-electrician/lasalle/",
+  "title": "Emergency Electrician in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/emergency-electrician/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/emergency-electrician/tecumseh/",
+  "title": "Emergency Electrician in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/electrical-inspections/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/electrical-inspections/",
+  "title": "Home Electrical Inspections | Buyers & Insurance",
+  "indexable": true
+ },
+ {
+  "path": "services/electrical-inspections/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/electrical-inspections/windsor/",
+  "title": "Electrical Inspections in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/electrical-inspections/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/electrical-inspections/lasalle/",
+  "title": "Electrical Inspections in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/electrical-inspections/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/electrical-inspections/tecumseh/",
+  "title": "Electrical Inspections in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/commercial-electrical/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/commercial-electrical/",
+  "title": "Commercial Electrician | Fit-Outs, LED & Equipment",
+  "indexable": true
+ },
+ {
+  "path": "services/commercial-electrical/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/commercial-electrical/windsor/",
+  "title": "Commercial Electrical in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/commercial-electrical/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/commercial-electrical/lasalle/",
+  "title": "Commercial Electrical in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "services/commercial-electrical/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/services/commercial-electrical/tecumseh/",
+  "title": "Commercial Electrical in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "service-areas/index.html",
+  "url": "https://rankboss-electrician.pages.dev/service-areas/",
+  "title": "Service Areas: Windsor, LaSalle and Tecumseh",
+  "indexable": true
+ },
+ {
+  "path": "service-areas/windsor/index.html",
+  "url": "https://rankboss-electrician.pages.dev/service-areas/windsor/",
+  "title": "Electrician in Windsor, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "service-areas/lasalle/index.html",
+  "url": "https://rankboss-electrician.pages.dev/service-areas/lasalle/",
+  "title": "Electrician in LaSalle, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "service-areas/tecumseh/index.html",
+  "url": "https://rankboss-electrician.pages.dev/service-areas/tecumseh/",
+  "title": "Electrician in Tecumseh, ON | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "about/index.html",
+  "url": "https://rankboss-electrician.pages.dev/about/",
+  "title": "About Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "faq/index.html",
+  "url": "https://rankboss-electrician.pages.dev/faq/",
+  "title": "Electrical FAQ | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "thank-you/index.html",
+  "url": "https://rankboss-electrician.pages.dev/thank-you/",
+  "title": "Thank You | Voltline Electric Co.",
+  "indexable": false
+ },
+ {
+  "path": "privacy-policy.html",
+  "url": "https://rankboss-electrician.pages.dev/privacy-policy.html",
+  "title": "Privacy Policy | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "terms-and-conditions.html",
+  "url": "https://rankboss-electrician.pages.dev/terms-and-conditions.html",
+  "title": "Terms and Conditions | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "cookie-policy.html",
+  "url": "https://rankboss-electrician.pages.dev/cookie-policy.html",
+  "title": "Cookie Policy | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "contact/index.html",
+  "url": "https://rankboss-electrician.pages.dev/contact/",
+  "title": "Contact & Electrical Quote | Voltline Electric Co.",
+  "indexable": true
+ },
+ {
+  "path": "404.html",
+  "url": null,
+  "title": "Page Not Found | Voltline Electric Co.",
+  "indexable": false
+ }
+]

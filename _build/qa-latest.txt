@@ -1,0 +1,35 @@
+PASS  Internal links and assets: 0 broken
+PASS  Orphan pages (no incoming internal links): 0
+PASS  Lowest incoming-link counts: thank-you/index.html (0), services/commercial-electrical/lasalle/index.html (7), services/commercial-electrical/tecumseh/index.html (7), services/commercial-electrical/windsor/index.html (7), services/hot-tub-wiring/lasalle/index.html (7)
+PASS  Unique titles: 69 indexable pages, 0 duplicates
+PASS  Unique meta descriptions: 69 indexable pages, 0 duplicates
+PASS  Meta description present on all indexable pages (0 missing)
+PASS  Titles over 65 characters: 0
+PASS  Descriptions over 160 characters: 0
+PASS  Exactly one H1 per page: 71/71
+PASS  No duplicate element IDs (0 pages with duplicates)
+PASS  Images missing alt attribute: 0
+PASS  Form fields with an associated label: 0 unlabelled
+PASS  Canonical URLs match file paths on https://rankboss-electrician.pages.dev: 0 mismatches
+PASS  og:url matches canonical on every page (0 mismatches)
+PASS  sitemap.xml valid XML, 69 URLs; not-in-site 0, missing 0, duplicates 0
+PASS  robots.txt allows crawling and references the canonical sitemap
+PASS  JSON-LD parses on all pages (0 errors). Types: BreadcrumbList ×69, ContactPage ×1, Electrician ×1, ItemList ×1, Service ×56, WebApplication ×1, WebSite ×1
+PASS  Service pages with 500–600 words of main content: 14/14 (range 500–538)
+PASS  City service pages: 42 pages, 342–414 words of main content
+PASS  Near-duplicate check (5-word shingle overlap) across all 42 city pages: highest 41% (services/commercial-electrical/lasalle/index.html vs services/commercial-electrical/tecumseh/index.html)
+PASS  No leftover template tokens or placeholder text (0 found)
+PASS  Unsupported-claim scan (best, #1, guarantee, awards, years, star ratings): 0 hits
+PASS  Website demo banner on every page while demo_mode is on (71/71)
+PASS  Footer links to Privacy, Terms and Cookie pages on every page (0 missing)
+PASS  Text contrast ≥ 4.5:1 for all key colour pairs: body text 17.7, muted text 8.4, muted on card 7.7, accent text 12.9, accent on card 11.9, button text on accent 12.5, alt text 10.6, alt on card 9.7, dark text on alt 10.3, paper text 15.7, paper muted 6.4, paper eyebrow 4.7, paper alt 4.6, CTA band text 12.5, form error 8.1, prose text 14.2, demo note 13.4
+PASS  Only offered services have pages (14 service folders, 0 not offered: )
+PASS  No links to services that are not offered (0 pages with such links)
+PASS  No sentences mention services this client does not offer
+PASS  Opening animation overlay + once-per-session check on exactly the 69 intended pages (never 404 or thank-you)
+PASS  Instant estimate page: 6 jobs with their inputs written from site.config.json (unoffered ones dropped), estimate.js loaded, lead form with estimate fields, job previews
+PASS  Home hero job picker submits to the instant estimate (works without JavaScript)
+PASS  House scroll scene: house.js loaded, 6 wired circuits each with its room, messages and HUD in the hero
+PASS  No licence number shown anywhere until the client supplies one (config licence_number)
+
+33 passed, 0 warnings, 0 failed

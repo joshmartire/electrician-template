@@ -1,0 +1,27 @@
+PASS Opening animation plays when landing on /services/panel-upgrades/ and clears itself
+PASS Intro panel has 12 breakers to flip on
+PASS Intro does not replay on the next page in the same session
+PASS Intro skipped when the URL has a #hash
+PASS Intro skipped for reduced motion
+PASS A click skips the intro
+PASS House scene: pinned, starts dark, circuits trace and rooms light up in turn, all on at the end with the final message and the estimate card
+PASS Reduced motion: hero not pinned, house shown fully powered
+PASS Hero job picker opens the estimate with that job selected
+PASS Estimate matches the config for all 6 jobs, at defaults and with every option changed
+PASS Option notes appear in the result card (EV charger: 100 A or smaller)
+PASS Lead form opens with the job, the chosen options and the estimate filled in
+PASS Empty estimate form shows errors and focuses the first field
+PASS Phones: live price bar shows while the result card is off screen
+PASS Contact form: empty submit shows errors on required fields
+PASS Contact form: invalid email message
+PASS No horizontal scrolling at 390px on 12 key pages
+PASS Mobile menu opens from the burger button
+PASS Mobile call bar appears after scrolling
+PASS axe WCAG 2.1 AA on /: 0 violations
+PASS axe WCAG 2.1 AA on /electrical-estimate/: 0 violations
+PASS axe WCAG 2.1 AA on /services/panel-upgrades/: 0 violations
+PASS axe WCAG 2.1 AA on /contact/: 0 violations
+PASS axe WCAG 2.1 AA on /service-areas/windsor/: 0 violations
+PASS No JavaScript errors in the console (0)
+
+25 passed, 0 failed
